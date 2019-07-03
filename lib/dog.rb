@@ -4,4 +4,6 @@ class Dog
   def initialize(attributes)
     #id: nill, :name, :breed
     attributes.each do {|k, v| self.send(("#{key}="), value)}
-    self.id 
+    self.id ||=nil
+  end
+end
