@@ -6,4 +6,14 @@ class Dog
     attributes.each do {|k, v| self.send(("#{key}="), value)}
     self.id ||=nil
   end
+
+
+
+
+
+
+
+
+
+
 end
